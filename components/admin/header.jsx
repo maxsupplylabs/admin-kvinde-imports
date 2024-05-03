@@ -22,7 +22,7 @@ export default function AdminHeader() {
               "flex text-lg font-semibold uppercase md:text-xl"
             )}
           >
-            Samdy Administration
+            Kvinde Administration
           </Link>
         </div>
         <Link
@@ -72,7 +72,7 @@ export default function AdminHeader() {
           >
             Customers
           </Link>
-          {/* <Link
+          <Link
             href={"/orders"}
             className={clsx(
               "min-w-max h-min py-1 px-2",
@@ -80,7 +80,7 @@ export default function AdminHeader() {
             )}
           >
             Orders
-          </Link> */}
+          </Link>
 
           
           <Link

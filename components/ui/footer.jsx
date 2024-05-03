@@ -39,7 +39,7 @@ export default function Footer() {
                     </div>
                 </div> */}
                 <div className="mt-10 py-10 border-t items-center justify-between text-xs sm:flex">
-                    <p>© 2024 Samdy Imports. All rights reserved.</p>
+                    <p>© 2024 Kvinde Imports. All rights reserved.</p>
                     <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
                         {
                             footerNavs.map((item, idx) => (

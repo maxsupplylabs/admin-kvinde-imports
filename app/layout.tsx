@@ -19,7 +19,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Samdy Administration",
+  title: "Kvinde Administration",
   description: "",
 };
 

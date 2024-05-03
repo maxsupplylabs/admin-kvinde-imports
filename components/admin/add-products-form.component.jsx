@@ -316,7 +316,7 @@ const addproductformcomponent = ({ allCollections }) => {
 
         <fieldset className="border border-gray-300 rounded-lg p-2">
           <legend className="text-sm font-medium mb-4">
-            Select department
+            Select a department
           </legend>
           {allDepartments.map((department) => (
             <div key={department.id} className="flex items-center gap-x-3 mb-2">
@@ -334,7 +334,7 @@ const addproductformcomponent = ({ allCollections }) => {
 
         <fieldset className="border border-gray-300 rounded-lg p-2">
           <legend className="text-sm font-medium mb-4">
-            Select collection
+            Select a collection
           </legend>
           {uploadedCollections.map((collection) => (
             <div key={collection.id} className="flex items-center gap-x-3 mb-2">

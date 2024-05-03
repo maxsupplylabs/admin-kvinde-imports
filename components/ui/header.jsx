@@ -20,10 +20,10 @@ export default function Header() {
             href={"/"}
             className={clsx(
               lusitana.className,
-              "flex text-lg uppercase font-bold md:text-xl"
+              "flex text-lg uppercase italic font-bold md:text-xl"
             )}
           >
-            Samdy Administration
+            Kvinde Administration
           </Link>
         </div>
 
