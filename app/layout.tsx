@@ -4,8 +4,6 @@ import { Roboto } from "next/font/google";
 import { StateContext } from "@/context/state-context";
 import { Toaster } from "react-hot-toast";
 import { AuthProvider } from "@/context/AuthContext";
-import Header from "@/components/ui/header";
-import Footer from "@/components/ui/footer";
 import { BizProductContextProvider } from "@/context/Business-Product-Edit";
 import AdminHeader from "@/components/admin/header";
 const inter = Inter({
@@ -19,7 +17,8 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Kvinde Administration",
+  metadataBase: new URL("https://admin-kvinde-imports.vercel.app"),
+  title: "Administration | Authorized Personels Only",
   description: "",
 };
 
