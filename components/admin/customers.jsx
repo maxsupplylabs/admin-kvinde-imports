@@ -51,7 +51,13 @@ export default function Customers({ visitorsWithOrders }) {
           </p>
         )}
       </div> */}
-      {customers.map((customer) => (
+       <div className="p-2">
+                <h1 className="text-3xl font-bold capitalize">Customers</h1>
+            </div>
+      <div className="flex h-[60vh] justify-center items-center mx-8 text-sm text-center">
+        <p>Visitors who have ordered will appear here. <span className="block">Coming soon...</span></p>
+      </div>
+      {/* {customers.map((customer) => (
         <div key={customer.id}>
           {customer.name != "" ? (
             <CustomerCard
@@ -62,7 +68,7 @@ export default function Customers({ visitorsWithOrders }) {
             ""
           )}
         </div>
-      ))}
+      ))} */}
     </>
   );
 }

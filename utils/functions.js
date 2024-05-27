@@ -1011,6 +1011,24 @@ export const getAllOrders = async () => {
   }
 }
 
+export async function fetchProduct(productId) {
+  try {
+    const docRef = doc(db, "products", productId);
+    const docSnap = await getDoc(docRef);
+
+    // Check if the document exists
+    if (docSnap.exists()) {
+      return docSnap.data();
+    } else {
+      console.log("Document does not exist");
+      return null;
+    }
+  } catch (error) {
+    console.error("Error fetching document from Firestore:", error);
+    throw error;
+  }
+}
+
 export const fetchProductsWithOrders = async () => {
 
   try {
